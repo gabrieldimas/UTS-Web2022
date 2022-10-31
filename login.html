@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Human Made Online Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header" style="display: flex;">
+    <div class="header-left" style="width: 30%;">
+      <h2 style="padding: 15px 0px 0px 50px;">HUMAN MADE ONLINE STORE</h2>
+    </div>
+    <div class="header-center" style="width: 40%;text-align: center;">
+      <img src="logo-3.png" style="max-width: 100px;">
+    </div>
+    <div class="header-right" style="width: 30%;text-align: right;">
+      <ul style="padding: 20px 50px 0px 0px;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog1.html">Catalog</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="login.html">Log In</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main">
+    <a name="main"></a>
+    <br><br><br><br>
+    <div class="title-main" style="text-align: center;padding: 40px 0px;">
+      <h1>Login</h1>
+    </div>
+    <form name="form" onsubmit="return validate()" method="get">
+      <p>Username</p><br>
+      <input type="text" class="form1" name="username">
+      <p>Password</p><br>
+      <input type="password" class="form1" name="password">
+      <div class="buttonn" style="text-align: center;margin-top: 100px;">
+        <button class="button" type="submit" value="submit">Login</button>
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript">
+    function validate() {
+      let v1 = document.forms["form"]["username"].value;
+      let v2 = document.forms["form"]["password"].value;
+      if (v1 == "" && v2 == "") {
+        alert("Please fill the form");
+      } else if (v1 == "") {
+        alert("Insert your username");
+      } else if (v2 == "") {
+        alert("Insert your password")
+      } else {
+        alert("Welcome :)")
+      }
+    }
+  </script>
+  </div>
+</body>
+
+</html>

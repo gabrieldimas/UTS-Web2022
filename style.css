@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+s {
+  font-weight: lighter;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* header */
+
+.header {
+  padding-top: 10px;
+  height: auto;
+}
+
+.header-right li {
+  padding-left: 15px;
+}
+
+.header-right a:hover {
+  color: grey;
+}
+
+/* hero */
+
+.hero {
+  height: auto;
+  margin: 100px 10%;
+}
+
+.hero2 {
+  height: auto;
+  margin: 0px 10%;
+}
+
+/* featured */
+
+.featured {
+  margin: 100px 10%;
+}
+
+.featured img:hover {
+  cursor: pointer;
+}
+
+/* news */
+
+.news {
+  margin: 100px 10%;
+}
+
+.news img:hover {
+  cursor: pointer;
+}
+
+/* arrival */
+
+.arrival {
+  height: auto;
+  margin: -100px 10%;
+}
+
+/* about */
+
+.about {
+  margin: 200px 10%;
+}
+
+.about-main {
+  margin: 50px 0px;
+}
+
+/* footer */
+
+.footer {
+  height: auto;
+  border: 1px solid grey;
+}
+
+.footer p {
+  font-size: smaller;
+  padding: 0px 20px;
+}
+
+/* catalog
+container */
+
+/* hero */
+.catalog-main {
+  margin: 100px 10%;
+}
+
+.catalog-categories {
+  margin: 0px 10%;
+}
+
+/* item */
+
+.items img:hover {
+  filter: brightness(0.8);
+}
+
+.items p {
+  font-weight: lighter;
+}
+
+/* login */
+
+.main {
+  margin: 0px 30%;
+}
+
+.form1 {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.form1:focus {
+  outline: none;
+}
+
+.title1 {
+  text-align: center;
+}
+
+.form2 {
+  border: 2px solid black;
+  height: 200px;
+  width: 100%;
+  text-align: top;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background: #121212;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: black;
+  background: white;
+  border: 2px solid black;
+}

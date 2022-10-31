@@ -1,0 +1,151 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Human Made Online Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .buttonn {
+      width: 100px;
+    }
+
+    .buttonn:hover {
+      cursor: pointer;
+    }
+
+    .buttonn1 {
+      width: 100px;
+      background: black;
+    }
+
+    .buttonn1 a {
+      color: black;
+    }
+
+    .buttonn2 {
+      width: 100px;
+      background: white;
+      border: 1px solid black;
+    }
+
+    .buttonn2 a {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header" style="display: flex;">
+    <div class="header-left" style="width: 30%;">
+      <h2 style="padding: 15px 0px 0px 50px;">HUMAN MADE ONLINE STORE</h2>
+    </div>
+    <div class="header-center" style="width: 40%;text-align: center;">
+      <img src="logo-3.png" style="max-width: 100px;">
+    </div>
+    <div class="header-right" style="width: 30%;text-align: right;">
+      <ul style="padding: 20px 50px 0px 0px;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog1.html">Catalog</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="login.html">Log In</a></li>
+      </ul>
+    </div>
+  </div>
+  <div style="display: flex; margin: 100px 10%;">
+    <div class="detail-img" style="width: 50%;">
+      <img src="dt-2.jpg" style="max-width: 100%;" class="imggggggg">
+    </div>
+    <div class="detail-text" style="width: 50%;margin: 90px 0px 0px 30px;">
+      <h1>GRAPHIC T-SHIRT #14</h1><br><br>
+      <p>Graphic T-shirt with Human Made's standard rounded body. Woven with uneven slub yarn, it has a soft texture and
+        is adorned with an original graphic.</p>
+      <p>*Please be aware that each product differs slightly in terms of size and texture due to the wash-and-wear
+        treatment applied.
+      </p><br>
+      <p>ITEM ID: HM24TE0016 MATERIAL: 100% COTTON COLOR: WHITE/BLACK SALE DATE: October 1 (Sat) 11:00am(JST)</p><br>
+      <p>Available Color :</p><br>
+      <div class="buttonn" style="display: flex;text-align: center;">
+        <div class="buttonn1"><a onclick="imgSlider('dt-2.jpg')">aaaa</a></div>
+        <div class="buttonn2"><a onclick="imgSlider('dt-1.jpg')">bbbb</a></div>
+      </div><br>
+      <label for="">Available Size : </label><br><br>
+      <select id="size" name="size" style="background: white;border:1px solid black;">
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+      </select>
+    </div>
+  </div>
+  <div class="cart" style="text-align: center;margin-bottom: 160px;margin-top: -80px;">
+    <button class="button">Add to Cart</button>
+  </div>
+  <div class="footer" style="display: flex;">
+    <div class="footer1" style="text-align: center;width: 40%;height: 50%;">
+      <div class="footer11"><br>
+        <h3>Payment</h3><br>
+        <p>Payment methods are card payment, Google Pay, and Apple Pay.
+          The payment method cannot be changed after the order is completed.
+          <br><br>
+          Credit card payment:
+          VISA, MASTER, American Express, JCB, Diners are available.
+          Please check the contract status (limit amount, number of contract payments, card number, etc.) carefully
+          before using.
+          The withdrawal date and the number of contract payments will vary depending on the type of credit card and the
+          contract details, so please check with your credit card company for details.
+        </p><br>
+      </div>
+      <div class="footer12" style="border-top: 1px solid grey;"><br>
+        <h3>Inquiries</h3><br>
+        <p>Please check the FAQ before contacting us.
+          <br>
+          * You can cancel your order within 60 minutes after placing your order from "Purchase History" / "Order
+          Details" on My Page.
+          <br>* To prevent troubles, we do not accept returns or exchanges of items or change of delivery address except
+          for
+          defective items.
+          <br>
+          For inquiries, please contact us in Japanese or English.
+        </p><br>
+      </div>
+    </div>
+    <div class="footer2"
+      style="text-align: center;width: 20%;border-left: 1px solid grey;border-right: 1px solid grey;">
+      <br><br><br><br>
+      <br><br><br><br>
+      <br>
+      <h3 style="padding: 0px 20px;">Copyright © 2022 OTSUMO CO., LTD. All rights reserved.</h3>
+    </div>
+    <div class="footer3" style="text-align: center;width: 40%;">
+      <div class="footer31"><br>
+        <h3>Privacy Policy</h3><br>
+        <p>Payment methods are card payment, Google Pay, and Apple Pay.
+          The payment method cannot be changed after the order is completed.
+          <br><br>
+          Under the principle that it is in a position to model appropriate handling of personal information as a
+          company that contributes to society, Otsumo Co., Ltd. (“the Company”) recognizes the importance of handling
+          personal information appropriately. It has established a privacy policy, which executive officers and
+          employees will unite to observe, and will exert its utmost efforts to protect the personal information and the
+          rights and interests of individuals.
+        </p><br>
+      </div>
+      <div class="footer32" style="border-top: 1px solid grey;"><br>
+        <h3>Human Made Stores</h3><br>
+        <p>HUMAN MADE OFFLINE STORE
+          2-6-6 Jingumae, Shibuya-ku, Tokyo 150-0001Hidewa Gaien Residence 1F
+          03 6804 2569
+          Business hours: Mon-Fri 11: 00 ~ 19: 00 / Saturdays, Sundays, and holidays 11: 00 ~ 20: 00
+        </p><br>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    function imgSlider(anything) {
+      document.querySelector('.imggggggg').src = anything;
+    }
+  </script>
+</body>
+
+</html>

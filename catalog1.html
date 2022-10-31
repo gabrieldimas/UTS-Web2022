@@ -1,0 +1,277 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Human Made Online Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .items img {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header" style="display: flex;">
+    <div class="header-left" style="width: 30%;">
+      <h2 style="padding: 15px 0px 0px 50px;">HUMAN MADE ONLINE STORE</h2>
+    </div>
+    <div class="header-center" style="width: 40%;text-align: center;">
+      <img src="logo-3.png" style="max-width: 100px;">
+    </div>
+    <div class="header-right" style="width: 30%;text-align: right;">
+      <ul style="padding: 20px 50px 0px 0px;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog1.html">Catalog</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="login.html">Log In</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="catalog-main">
+    <h1>Catalog</h1><br>
+    <div style="height: 600px;">
+      <div style="height: 50%;display: flex;">
+        <div style="width: 33%;border: 1px solid grey;padding: 30px;">
+          <h2>Featured Items</h2>
+          <p>Our featured items, include discounted items.</p>
+          <br><br><br><br><br><br><br>
+          <a href="featured.html">click here to load more items &rarr;</a>
+        </div>
+        <div
+          style="width: 33%;border-top: 1px solid grey;border-right: 1px solid grey;padding: 30px;text-align: center;background-image: url('about-7.jpg');background-size: cover;">
+        </div>
+        <div style="width: 33%;padding: 30px;border-top: 1px solid grey;border-right: 1px solid grey;">
+          <h2>New Collaboration</h2>
+          <p>Our newest collaboration. Get the exclusive items.</p>
+          <br><br><br><br><br><br>
+          <a href="collab.html">click here to load more items &rarr;</a>
+        </div>
+      </div>
+      <div style="height: 50%;display: flex;">
+        <div
+          style="width: 33%;text-align: center;padding: 30px; border-left: 1px solid grey;border-bottom: 1px solid grey;border-right: 1px solid grey;background-image: url('about-10.jpg');background-size: cover;">
+        </div>
+        <div
+          style="width: 33%;border-bottom: 1px solid grey;border-right: 1px solid grey;border-top: 1px solid grey;padding: 30px;">
+          <h2>New Arrival</h2>
+          <p>Our newest items. Be the one who owned the items first.</p>
+          <br><br><br><br><br><br>
+          <a href="arrival.html">click here to load more items &rarr;</a>
+        </div>
+        <div
+          style="width: 33%;padding: 30px;border-bottom: 1px solid grey;border-right: 1px solid grey;border-top: 1px solid grey;background-image: url('about-12.jpg');background-size: cover;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="catalog-categories">
+    <div style="display: flex;">
+      <h1 style="width: 50%;">Items by Categories : T-Shirt</h1>
+      <div style="width: 50%;text-align: right;margin-top: 10px;">
+        Select by Categories :
+        <select id="ctg" style="background: white;border:1px solid black;">
+          <option value="0"></option>
+          <option value="1">T-Shirt</option>
+          <option value="2">Outerwear</option>
+          <option value="3">Pants</option>
+          <option value="4">Accessories</option>
+        </select>
+        <button id="btn" style="border: none;width: 140px;color: white;background-color: black;">Search!</button>
+      </div>
+    </div>
+    <br>
+    <hr><br>
+    <div class="items">
+      <div class="items1" style="display: flex;justify-content: center;margin-bottom: 20px;">
+        <div class="card" style="width: 25%;">
+          <img src="ts1.png" style="width: 100%;padding-bottom: 20px;">
+          <h3>Daily S/S T-Shirt #241031</h3>
+          <p>&yen;8,580</p>
+        </div>
+        <div class="card" style="width: 25%;">
+          <a href="detail.html">
+            <img src="ts-9.png" style="width: 100%;padding-bottom: 20px;">
+          </a>
+          <h3>Graphic T-Shirt #14</h3>
+          <p>&yen;9,680</p>
+        </div>
+        <div class="card" style="width: 25%;">
+          <img src="ts-3.png" style="width: 100%;padding-bottom: 20px;">
+          <h3>Pocket T-Shirt #2</h3>
+          <p>&yen;10,780</p>
+        </div>
+        <div class="card" style="width: 25%;">
+          <img src="ts-12.png" style="width: 100%;padding-bottom: 20px;">
+          <h3>Graphic T-Shirt #04</h3>
+          <p>&yen;9,680</p>
+        </div>
+      </div>
+      <div class="items2" style="display: flex;margin-bottom: 20px;justify-content: center;">
+        <div class="card" style="width: 33%;">
+          <img src="ts-13.png" style="width: 100%;padding-bottom: 20px;">
+          <h3>3Pack T-Shirt</h3>
+          <p>&yen;7700</p>
+        </div>
+        <div class="card" style="width: 33%;">
+          <img src="ts-14.png" style="width: 100%;padding-bottom: 20px;">
+          <h3>3Pack T-Shirt</h3>
+          <p>&yen;7700</p>
+        </div>
+        <div class="card" style="width: 33%;">
+          <img src="ts-15.png" style="width: 100%;padding-bottom: 20px;">
+          <h3>3Pack T-Shirt</h3>
+          <p>&yen;7700</p>
+        </div>
+      </div>
+      <div class="items1" style="display: flex;justify-content: center;margin-bottom: 20px;">
+        <div class="card" style="width: 25%;">
+          <img src="ts-10.png" style="width: 100%;padding-bottom: 20px;">
+          <h3>Pocket T-Shirt #02</h3>
+          <p>&yen;10,780</p>
+        </div>
+        <div class="card" style="width: 25%;">
+          <img src="ts-11.png" style="width: 100%;padding-bottom: 20px;">
+          <h3>Graphic T-Shirt #15</h3>
+          <p>&yen;9,680</p>
+        </div>
+        <div class="card" style="width: 25%;">
+          <img src="ts-5.png" style="width: 100%;padding-bottom: 20px;">
+          <h3>Graphic T-Shirt #06</h3>
+          <p>&yen;9,680</p>
+        </div>
+        <div class="card" style="width: 25%;">
+          <img src="ts-8.png" style="width: 100%;padding-bottom: 20px;">
+          <h3>Graphic T-Shirt #14</h3>
+          <p>&yen;9,680</p>
+        </div>
+      </div>
+    </div>
+    <div class="best-seller">
+      <br><br><br><br>
+      <h1>Best Sellers</h1><br>
+      <hr><br>
+      <div class="items">
+        <div style="display: flex;">
+          <img src="ts-13.png" style="max-width: 300px;">
+          <div style="padding: 40px 0px 0px 30px;">
+            <h2>3Pack T-Shirt : White</h2>
+            <p>&yen;7700</p>
+            <p>Sold : 25243 pieces.</p>
+            <br><br><br><br>
+            <a href="">Link to the product &rarr;</a>
+          </div>
+          <div style="text-align: right;width:53%;padding-top: 40px;">
+            <p style="font-size: 42px;font-weight: lighter;">#1</p>
+          </div>
+        </div>
+        <div style="display: flex;">
+          <img src="ts1.png" style="max-width: 300px;">
+          <div style="padding: 40px 0px 0px 30px;">
+            <h2>Daily S/S T-Shirt #241031</h2>
+            <p>&yen;8,580</p>
+            <p>Sold : 22139 pieces.</p>
+            <br><br><br><br>
+            <a href="">Link to the product &rarr;</a>
+          </div>
+          <div style="text-align: right;width:50%;padding-top: 40px;">
+            <p style="font-size: 42px;font-weight: lighter;">#2</p>
+          </div>
+        </div>
+        <div style="display: flex;">
+          <img src="ts-9.png" style="max-width: 300px;">
+          <div style="padding: 40px 0px 0px 30px;">
+            <h2>Graphic T-Shirt #14</h2>
+            <p>&yen;9,680</p>
+            <p>Sold : 21568 pieces.</p>
+            <br><br><br><br>
+            <a href="detail.html">Link to the product &rarr;</a>
+          </div>
+          <div style="text-align: right;width:55%;padding-top: 40px;">
+            <p style="font-size: 42px;font-weight: lighter;">#3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer" style="display: flex;margin-top: 100px;">
+    <div class="footer1" style="text-align: center;width: 40%;height: 50%;">
+      <div class="footer11"><br>
+        <h3>Payment</h3><br>
+        <p>Payment methods are card payment, Google Pay, and Apple Pay.
+          The payment method cannot be changed after the order is completed.
+          <br><br>
+          Credit card payment:
+          VISA, MASTER, American Express, JCB, Diners are available.
+          Please check the contract status (limit amount, number of contract payments, card number, etc.) carefully
+          before using.
+          The withdrawal date and the number of contract payments will vary depending on the type of credit card and the
+          contract details, so please check with your credit card company for details.
+        </p><br>
+      </div>
+      <div class="footer12" style="border-top: 1px solid grey;"><br>
+        <h3>Inquiries</h3><br>
+        <p>Please check the FAQ before contacting us.
+          <br>
+          * You can cancel your order within 60 minutes after placing your order from "Purchase History" / "Order
+          Details" on My Page.
+          <br>* To prevent troubles, we do not accept returns or exchanges of items or change of delivery address except
+          for
+          defective items.
+
+          　
+          <br>
+          For inquiries, please contact us in Japanese or English.
+        </p><br>
+      </div>
+    </div>
+    <div class="footer2"
+      style="text-align: center;width: 20%;border-left: 1px solid grey;border-right: 1px solid grey;">
+      <br><br><br><br>
+      <br><br><br><br>
+      <br>
+      <h3 style="padding: 0px 20px;">Copyright © 2022 OTSUMO CO., LTD. All rights reserved.</h3>
+    </div>
+    <div class="footer3" style="text-align: center;width: 40%;">
+      <div class="footer31"><br>
+        <h3>Privacy Policy</h3><br>
+        <p>Payment methods are card payment, Google Pay, and Apple Pay.
+          The payment method cannot be changed after the order is completed.
+          <br><br>
+          Under the principle that it is in a position to model appropriate handling of personal information as a
+          company that contributes to society, Otsumo Co., Ltd. (“the Company”) recognizes the importance of handling
+          personal information appropriately. It has established a privacy policy, which executive officers and
+          employees will unite to observe, and will exert its utmost efforts to protect the personal information and the
+          rights and interests of individuals.
+        </p><br>
+      </div>
+      <div class="footer32" style="border-top: 1px solid grey;"><br>
+        <h3>Human Made Stores</h3><br>
+        <p>HUMAN MADE OFFLINE STORE
+          2-6-6 Jingumae, Shibuya-ku, Tokyo 150-0001Hidewa Gaien Residence 1F
+          03 6804 2569
+          Business hours: Mon-Fri 11: 00 ~ 19: 00 / Saturdays, Sundays, and holidays 11: 00 ~ 20: 00
+        </p><br>
+      </div>
+    </div>
+  </div>
+  <script>
+    const ctg = document.querySelector('#ctg');
+    const btn = document.querySelector('#btn');
+    btn.onclick = (event) => {
+      if (ctg.value == 1) {
+        window.location = ('catalog1.html');
+      } else if (ctg.value == 2) {
+        window.location = ('catalog2.html');
+      } else if (ctg.value == 3) {
+        window.location = ('catalog3.html');
+      } else if (ctg.value == 4) {
+        window.location = ('catalog4.html');
+      }
+    };  
+  </script>
+</body>
+
+</html>
